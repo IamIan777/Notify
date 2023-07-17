@@ -1,0 +1,28 @@
+{
+  "name": "notify",
+  "version": "1.0.0",
+  "description": "note taiking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamIan777/Notify.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Ian Heap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamIan777/Notify/issues"
+  },
+  "homepage": "https://github.com/IamIan777/Notify#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "heroku": "^8.1.9",
+    "uuid": "^9.0.0"
+  }
+}
